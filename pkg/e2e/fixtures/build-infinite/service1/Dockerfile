@@ -12,6 +12,6 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-FROM busybox
+FROM busybox:latest@sha256:b5d6fe0712636ceb7430189de28819e195e8966372edfc2d9409d79402a0dc16
 
 RUN sleep infinity
