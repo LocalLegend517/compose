@@ -12,5 +12,5 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-FROM alpine:3.15
+FROM alpine:3.15@sha256:ecbdce53b2c2f43ab1b19418bcbd3f120a23547d9497030c8d978114512b883e
 
