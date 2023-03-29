@@ -15,7 +15,7 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-FROM alpine
+FROM alpine:latest@sha256:124c7d2707904eea7431fffe91522a01e5a861a624ee31d03372cc1d138a3126
 
 RUN echo "foo" > /tmp/expected
 RUN --mount=type=secret,id=mysecret cat /run/secrets/mysecret > /tmp/actual
