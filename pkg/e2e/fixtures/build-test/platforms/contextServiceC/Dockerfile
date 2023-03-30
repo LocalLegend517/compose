@@ -18,5 +18,5 @@ ARG TARGETPLATFORM
 ARG BUILDPLATFORM
 RUN echo "I'm Service C and I am building for $TARGETPLATFORM, running on $BUILDPLATFORM" > /log
 
-FROM alpine
+FROM alpine:latest@sha256:124c7d2707904eea7431fffe91522a01e5a861a624ee31d03372cc1d138a3126
 COPY --from=build /log /log
